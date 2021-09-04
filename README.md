@@ -4,13 +4,23 @@ A Installer System Similar To GIT
 # Usage
 ### Downloading
 ```
-java -f:<link to valis iff file>
+java -f:<link to valid iff file>
 java -jar iff.jar -f:https://github.com/ChefZander/repo/raw/main/example.iff
 ```
 If the URL is not valid, it will throw an error.
 
 ### The IFF Format
-
+The IIF Format is very simple.
+```
+<filename>=<url to file to download>;
+```
+You can put multiple file declarations on one line:
+```
+a=https://example.com/a.txt;c=https://example.com/b.txt;
+```
+<filename>: The Name of the file that will later be saved on disk | 
+<url to file to download>: URL to file. The contents of this file will be copied byte-by-byte into the <filename> file | 
+After the url put a ; to end the command. This is required to make multiple files per line possible.
 
 # License
 You can use this program for free, always.
