@@ -21,6 +21,7 @@ a=https://example.com/a.txt;c=https://example.com/b.txt;
 filename: The Name of the file that will later be saved on disk <br>
 url to file to download: URL to file. The contents of this file will be copied byte-by-byte into the filename file <br> 
 After the url put a ; to end the command. This is required to make multiple files per line possible.<br>
+Example: [example.iff](https://github.com/ChefZander/repo/blob/main/example.iff)
 
 # License
 You can use this program for free, always.
